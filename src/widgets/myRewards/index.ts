@@ -1,0 +1,1 @@
+export { MyRewardsList } from './myRewardsList'

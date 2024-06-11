@@ -1,0 +1,1 @@
+export { rewardsApi } from './api/rewards.api'

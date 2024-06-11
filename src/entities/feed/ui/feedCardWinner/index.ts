@@ -1,0 +1,1 @@
+export { FeedCardWinner } from './ui/FeedCardWinner'

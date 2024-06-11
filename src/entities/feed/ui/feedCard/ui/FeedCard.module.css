@@ -1,0 +1,31 @@
+.link {
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card.green {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 1px 22px -7px rgba(82,196,26,0.75)!important;
+}
+
+.card.green :global(.ant-card-body) {
+    border-radius: 10px !important;
+}
+
+.card.green:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-radius: 10px;
+    z-index: 9;
+    border: 2px solid var(--ant-green-6);
+
+}

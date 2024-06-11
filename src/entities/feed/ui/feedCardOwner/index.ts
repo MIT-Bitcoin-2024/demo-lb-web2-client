@@ -1,0 +1,1 @@
+export { FeedCardOwner } from './ui/FeedCardOwner'
